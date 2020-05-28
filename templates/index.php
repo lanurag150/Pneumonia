@@ -85,30 +85,34 @@
           
           <div class="w3-card-4" style="width: 700px; height:500px; padding:20px">
               <div class="w3-container w3-black">
-                <h2 style="color:white;">Diabetic Reinopathy Analysis</h2>
+                <h2 style="color:white;">Pneumonia Analysis</h2>
               </div>
-              <form id="upload-file" method="post" enctype="multipart/form-data">
+              <form id="upload-file" method="post" enctype="multipart/form-data" style=
+		    "text-align: center;">
                 <br>
                <label for="imageUpload" class="upload-label" >
             Select Image
         </label>
         <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
               </form>
-			  <div class="image-section" style="display:none;">
-        <div class="img-preview">
-            <div id="imagePreview">
+			  <div class="image-section" style="display:none;text-align: center;">
+        <div class="img-preview" style=
+		   " margin: auto;" >
+            <div id="imagePreview" style=
+		   " margin: auto;">
             </div>
         </div>
-        <div>
+        <div style=
+		    "text-align: center;">
             <button type="button" class="btn btn-primary btn-lg " id="btn-predict">Analyse</button>
         </div>
     </div>
-	 <div class="loader" style="display:none;"></div>
+	 <div class="loader" style="display:none; margin: auto;"></div>
 
-    <h3 id="result">
+    <h3 style=
+		    "text-align: center;" id="result">
         <span> </span>
     </h3>
-
 
             </div>
             </div>
