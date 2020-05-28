@@ -61,7 +61,7 @@
   </nav>
     <!-- END nav -->
     
-    <div class="hero-wrap" style="background-image: url('{{ url_for('static', filename='images/pnuemonia.jpg') }}'); background-attachment:fixed;">
+    <div class="hero-wrap" style="background-image: url('{{ url_for('static', filename='images/pneumonia.jpg') }}'); background-attachment:fixed;">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
