@@ -39,7 +39,7 @@ print('Model loaded. Start serving...')
 @app.route('/', methods=['GET'])
 def index():
     # Main page
-    return render_template('index.html')
+    return render_template('index.php')
 
 
 @app.route('/predict', methods=['GET', 'POST'])
@@ -67,10 +67,10 @@ def upload():
         str2 = 'Puneumonia'
         str1 = 'Normal'
        
-        if result[0][0] == 0:
-          return str2
+        if result[0][0] < 0.5:
+          return str1
         else:
-         return str1
+         return str2
     return None
 
     #this section is used by gunicorn to serve the app on Heroku
