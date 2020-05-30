@@ -78,7 +78,7 @@
       </div>
     </div>
 
-   <section class="ftco-section contact-section ftco-degree-bg" style="height: 680px">
+   <section class="ftco-section contact-section ftco-degree-bg" style="height: 680px"background-color:AntiqueWhite;>
    
       <div class="container col-lg-6" >
           
